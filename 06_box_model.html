@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model  / Margin & Padding</title>
+    <style>
+        /* CSS reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box {
+            background: #f4f4f4;
+            border: 2px #777 solid;
+            width: 500px;
+
+            /* Padding on all sides */
+            padding: 20px;
+
+            /* Padding shorthand -> top, right, bottom, left (applies to margin as well) */
+            padding: 10px 20px 10px 20px;
+
+            /* Margin on all sides */
+            margin: 20px;
+        }
+
+        .box h3 {
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Box One</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et dicta similique officia iure, fugiat voluptas non. Enim, dolores nemo.</p>
+    </div>
+    <div class="box">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et dicta similique officia iure, fugiat voluptas non. Enim, dolores nemo.</p>
+    </div>
+</body>
+</html>
